@@ -1,0 +1,19 @@
+{
+  "name": "upload-avatar-backend",
+  "version": "1.0.0",
+  "description": "A service to upload files to local directory.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Giuliana Silva Bezerra",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "multer": "^1.4.1"
+  }
+}
